@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.veeresh.b37_serialization.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your name"
+        android:id="@+id/editText1"
+        android:textSize="60px"
+        android:textColor="#F00"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Education"
+        android:id="@+id/editText2"
+        android:textSize="60px"
+        android:textColor="#00F"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile"
+        android:id="@+id/editText3"
+        android:textSize="60px"
+        android:textColor="#F0F"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:id="@+id/button1"
+        android:textSize="60px"
+        android:textColor="#F00"
+        />
+</LinearLayout>
